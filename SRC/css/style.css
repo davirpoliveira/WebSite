@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: 2px solid black;
-    background-color: black;
+    background-color: lightgreen;
     color: white;
+    position: sticky;
+    top: 0;
 }
 #nav{
    display: flex;
@@ -14,8 +15,8 @@
    
     
 }
-.space{
-    margin-bottom: 100px;
+#re{
+    margin-bottom: 10rem;
 }
 a:visited {
   color: white;
@@ -23,7 +24,7 @@ a:visited {
   text-decoration: none;
   }
   a:hover {
-  color: purple;
+  color: white;
   background-color: transparent;
   text-decoration: none;
   }
