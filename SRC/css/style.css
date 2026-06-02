@@ -6,6 +6,7 @@
     color: white;
     position: sticky;
     top: 0;
+    align-items: center;
 }
 #nav1{
    display: flex;
@@ -31,8 +32,4 @@ a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
-}
-.introduction{
-
-
 }
