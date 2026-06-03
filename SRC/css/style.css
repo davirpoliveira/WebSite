@@ -33,3 +33,26 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
+#e1{
+    color: black;
+    justify-content: center;
+    justify-items: center;
+    
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+}
+#e2{
+    width: 30%;
+    height: 30%;
+    
+    
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
