@@ -74,10 +74,13 @@ justify-content: center;
     background-color: bisque\s;
 }
 #nav_lateral{
-    position: fixed;
+    
+   
+    position: sticky;
+    top: 0;
     right: 0;
     border: solid red;
-    width: 10%;
-    height: 20%;
+    width: 20%;
+    
     justify-items: center;
 }
