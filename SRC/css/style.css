@@ -75,13 +75,10 @@ justify-content: center;
     background-color: bisque\s;
 }
 #nav_lateral{
-    
-   
-    position: sticky;
+    position: relative;
     top: 0;
     right: 0;
+    z-index: 9999;
     border: solid red;
     width: 20%;
-    
-    justify-items: center;
 }
