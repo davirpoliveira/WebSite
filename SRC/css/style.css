@@ -71,6 +71,9 @@ a:visited {
 }
 #background-mod{
     background-color: rgb(0, 0, 0);
+    height: 90%;
+    width: 90%;
+    border: 10px solid white;
 }
 #nav_lateral{
     position: relative;
