@@ -54,7 +54,7 @@ a:visited {
   text-decoration: none;
 }
 #nav_lateral{
-    width: 250px;
+    width: 15%;
     height: 10%;
     background-color: #470000;
     color: white;
@@ -63,7 +63,7 @@ a:visited {
     left: 0;
     padding-top: 0px;
     margin-top: 0rem;
-    padding-top: 5rem;
+    padding-top: 6rem;
     gap: 0rem;
     display: flex;
     flex-direction: column;
@@ -90,17 +90,16 @@ a:visited {
     background-color: rgb(0, 0, 0);
   
 }
-#main{
+ #main{
     
-    justify-items: center;
+    justify-items: first baseline;
     gap: 10rem;
-    padding: 1rem;
+    padding-left: 20%;
     
     
 }
-.separation{
-    
-    width: 60%;
+.separation{ 
+    width: 90%;
     display: flex;
     flex-direction: column;
     color: white;
@@ -109,110 +108,22 @@ a:visited {
     position: relative; 
     justify-content: center;
     justify-items: center;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-#section1{
-    margin-top: 3rem;
+    text-align: justify;
     flex-direction: column;
     display: flex;
     margin-bottom: 3rem;
-     scroll-margin-top: 100px;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-margin-top: 100px
 }
-#section2{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section3{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section4{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section5{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section6{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section7{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section8{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section9{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section10{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section11{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section12{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section13{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section14{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section15{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 3rem;
-     scroll-margin-top: 100px;
-}
-#section16{
-    flex-direction: column;
-    display: flex;
-     scroll-margin-top: 100px;
-}
+
 #centro{
     text-align: center;
     justify-content: center;
     justify-items: center;
     gap: 0;
 
+}
+html {
+  scroll-behavior: auto;
 }
