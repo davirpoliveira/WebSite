@@ -1,0 +1,1 @@
+O objetivo desse WebSite foi criar um site sobre um jogo do roblox chamado Jujutsu Shenanigans, é um jogo que eu jogo frequentemente e gosto muito, o coteudo dele tinha a meta de exibir informações breves sobre esse jogo.
